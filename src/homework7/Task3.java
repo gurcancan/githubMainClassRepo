@@ -34,5 +34,23 @@ public class Task3 {
                 System.out.print(dad.charAt(i));
             }
         }
+        System.out.println();
+        System.out.println("************");
+        //short way to do same
+        String dadsName = "Gurcan";
+        String momsName = "Asli";
+        String babySex = "Boy";
+        String firstHalf;
+        String secondHalf;
+
+        if (babySex.equalsIgnoreCase("boy")) {
+            firstHalf = dadsName.substring(0, dadsName.length() / 2);
+            secondHalf = momsName.substring(momsName.length() / 2, momsName.length());
+            System.out.println(firstHalf + secondHalf);
+        } else {
+            firstHalf = momsName.substring(0, momsName.length() / 2);
+            secondHalf = dadsName.substring(dadsName.length() / 2, dadsName.length());
+            System.out.println(firstHalf + secondHalf);
+        }
     }
 }

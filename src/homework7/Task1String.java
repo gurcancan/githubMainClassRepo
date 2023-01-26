@@ -12,10 +12,12 @@ public class Task1String {
         System.out.println(len);
         int i = len / 2;
 
-        if (len % 2 != 0) {
-            System.out.println("The middle character is " + str.charAt(i));
-        } else {
-            System.out.println("There are even numbers of character in the String.");
+        if (!str.isEmpty()&&str.length()>=3) {
+            if (len % 2 != 0) {
+                System.out.println("The middle character is " + str.charAt(i));
+            } else {
+                System.out.println("There are even numbers of character in the String.");
+            }
         }
     }
 }
