@@ -10,14 +10,8 @@ public class Task2 {
         // characters are there in the String.
 
         String str = "asdad234234fdgdfgASDASFA456456&*^(%$%&#$^";
-        int count1 = 0;
-        int count2 = 0;
+        System.out.println(str.replaceAll("[^A-Za-z0-9]","").length());
+        System.out.println(str);
 
-        for (int i = 0; i < str.length(); i++) {
-            if (Character.isAlphabetic(str.charAt(i))) {
-                count1++;
-            }
-        }
-        System.out.println(count1);
     }
 }

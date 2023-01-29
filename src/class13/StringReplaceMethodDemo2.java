@@ -15,6 +15,6 @@ public class StringReplaceMethodDemo2 {
         // replace all letters and numbers
         System.out.println(str.replaceAll("[A-Za-z0-9]","#"));
         //do not replace A to Z and do not replace a to z
-        System.out.println(str.replaceAll("[^A-Za-z0-9]","#"));
+        System.out.println(str.replaceAll("[^A-Za-z0-9]","").length());
     }
 }
