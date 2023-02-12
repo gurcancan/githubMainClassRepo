@@ -1,0 +1,18 @@
+Polymorphism:
+   Polymorphism allows us to perform same action in different ways.
+   There are two types of Polymorphism.
+   Early binding compile and time runtime or late binding.
+   Polymorphism that is achieved with the help of method overloading is called
+   early binding or compile time Polymorphism. When we achieve the Polymorphism
+   with the help of method overriding it called run time Polymorphism.
+Why we should learn Polymorphism?
+   Polymorphism allows us to write less code and call multiple method.
+Polymorphism Syntax:
+   1) For Syntax Polymorphism we only need to overload a method.
+   2) For the dynamic Polymorphism we need to extend from a class we need to
+   override the methods from the parent class that we want to us in Polymorphism.
+Final keyword:
+    There are three main uses of
+
+Abstraction:
+
