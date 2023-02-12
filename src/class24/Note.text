@@ -12,7 +12,7 @@ Polymorphism Syntax:
    2) For the dynamic Polymorphism we need to extend from a class we need to
    override the methods from the parent class that we want to us in Polymorphism.
 Final keyword:
-    There are three main uses of
+    There are three main uses of the final keyword.
 
 Abstraction:
 
