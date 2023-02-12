@@ -11,6 +11,17 @@ Polymorphism Syntax:
    1) For Syntax Polymorphism we only need to overload a method.
    2) For the dynamic Polymorphism we need to extend from a class we need to
    override the methods from the parent class that we want to us in Polymorphism.
+Final keyword:
+    There are three main uses of the final keyword.
+    1) when we use the final keyword with variable we can't change its value once it it assigned.
+    2) when we have created constants then we declare the variables as final.
+    3) when we use it withe a class no other class can inherit from that class.
 
 Abstraction:
+    Abstraction is the process of hiding implementation details and showing only the functionality to user.
+Why we should use Abstraction?
+    1) It reduce the code complexity.
+    2) It allows the end user to focus on using the feature instead of worrying about the implementation.
+Syntax:
+            
 
