@@ -7,10 +7,10 @@ public abstract class File {
     }
     abstract void open();
     void edit(){
-        System.out.printf("Edit Files");
+        System.out.println("Edit Files");
     }
     void close(){
-        System.out.printf("Close Files");
+        System.out.println("Close Files");
     }
 }
 class JavaFiles extends File{
@@ -19,10 +19,10 @@ class JavaFiles extends File{
         super(size);
     }
     void open(){
-        System.out.printf("To open .java you need notepad++");
+        System.out.println("To open .java you need notepad++");
     }
     void close(){
-        System.out.printf("Close java file ");
+        System.out.println("Close java file ");
     }
 }
 class WordFile extends File{
@@ -30,6 +30,6 @@ class WordFile extends File{
         super(size);
     }
     void open(){
-        System.out.printf("To open .doc you need Microsoft word");
+        System.out.println("To open .doc you need Microsoft word");
     }
 }
